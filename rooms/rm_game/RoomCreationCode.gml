@@ -1,2 +1,2 @@
-//cursor_sprite = spr_cursor;
-window_set_cursor(cr_cross);
+cursor_sprite = spr_cursor;
+window_set_cursor(cr_none);

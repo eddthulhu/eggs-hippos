@@ -2,7 +2,7 @@
     "id": "aac68cb4-e3d2-438b-95ae-42b9e8383845",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "hipo_controller",
+    "name": "spawner",
     "eventList": [
         {
             "id": "bdbfc5c3-7496-4970-8319-48d77298da61",

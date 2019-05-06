@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "8342e77b-b9f6-4f13-a06c-3fd92283e772",
+            "Value": {
+                "id": "040ad56e-9420-4cf9-98d8-277ce32a4ec8",
+                "resourcePath": "objects\\obj_ammo\\obj_ammo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97fac069-fa49-4323-bb49-4051fefc8d43",
             "Value": {
                 "id": "127573fa-a622-4482-87d6-04405e7dbfea",
@@ -194,7 +202,7 @@
             "Key": "aac68cb4-e3d2-438b-95ae-42b9e8383845",
             "Value": {
                 "id": "e38df280-a14d-4460-bc42-561962d61454",
-                "resourcePath": "objects\\hipo_controller\\hipo_controller.yy",
+                "resourcePath": "objects\\spawner\\spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -300,6 +308,14 @@
                 "id": "1d7c8f1f-3380-4835-af58-90ae1f97d939",
                 "resourcePath": "views\\f97c5360-cde0-4851-b567-40c8a76bd6f2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe70c9cc-f5aa-4934-a821-0632542d242f",
+            "Value": {
+                "id": "990213bb-1e9a-426a-bc60-888aa7c0ea72",
+                "resourcePath": "sprites\\spr_ammo\\spr_ammo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
