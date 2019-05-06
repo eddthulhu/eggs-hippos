@@ -22,7 +22,7 @@ if (x <= 32) {
 	x = 16 + sprite_width/2;
 }
 if (y >= room_height - 32) {
-	y = room_height - sprite_height/2
+	y = room_height - 32
 }
 if (y <= 32) {
 	y = 16 + sprite_height/2

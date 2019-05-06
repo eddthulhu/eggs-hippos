@@ -7,4 +7,4 @@ hspd = 0;
 vspd = 0;
 dir = 0;
 color = 0;
-depth = -y
+depth = -y;
