@@ -5,4 +5,4 @@ spd = 8
 hspd = 0
 vspd= 0
 len = 0
-image_angle = point_direction(x,y,mouse_x, mouse_y) - 270;
+image_angle = point_direction(x,y,mouse_x, mouse_y) - 180;

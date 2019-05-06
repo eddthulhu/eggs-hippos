@@ -36,5 +36,5 @@ image_angle = point_direction(x,y,mouse_x,mouse_y) - 90
 if (place_meeting(x,y,obj_puddle)) {
 	spd = 3;
 } else {
-	spd = 5;
+	spd = spd;
 }
