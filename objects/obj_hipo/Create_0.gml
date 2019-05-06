@@ -6,5 +6,5 @@ len = 0;
 hspd = 0;
 vspd = 0;
 dir = 0;
-color = 0;
+myColor = "";
 depth = -y;

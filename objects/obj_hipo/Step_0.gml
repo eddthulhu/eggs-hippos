@@ -1,36 +1,86 @@
-/// @description Inserte aquí la descripción
-
-//Rota el sprite a su target
-image_angle = point_direction(x,y,target.x, target.y) - 90;
-//else {
-//	image_angle = point_direction(x,y,obj_nest.x,obj_nest.y);
-//}
-
-// Direcction al target
-dir = point_direction(x,y,target.x, target.y);
-len = spd
-
-hspd = lengthdir_x(len, dir);
-vspd = lengthdir_y(len, dir);
-
-if (x <= target.x) {
-	x += hspd;
+//Update color
+if(myColor != color_controller.currentColor) {
+	myColor = color_controller.currentColor;
+	switch (myColor) {
+		case "rojo":
+			image_index = 2;
+		break;
+		case "amarillo":
+			image_index = 1;	
+		break;
+		case "negro":
+			image_index = 0;
+		break;
+		case "verde":
+			image_index = 3;	
+		break;
+	}
 }
 
-if (x >= target.x) {
-	x += hspd;
-}
+//Update logica
+switch(myColor){
+	case "rojo":
+		spd = 4
+		image_angle = point_direction(x,y,target.x, target.y) - 90;
+		// Direcction al target
+		dir = point_direction(x,y,target.x, target.y);
+		len = spd
 
-if (y >= target.y) {
-	y += vspd;
-}
+		hspd = lengthdir_x(len, dir);
+		vspd = lengthdir_y(len, dir);
+		
+		if (x <= target.x) {
+			x += hspd;
+		}
 
-if (y <= target.y) {
-	y += vspd;
-}
+		if (x >= target.x) {
+			x += hspd;
+		}
 
-if (place_meeting(x,y,obj_puddle)) {
-	spd = 0.5
-} else {
-	spd = 1.5
-}
+		if (y >= target.y) {
+			y += vspd;
+		}
+
+		if (y <= target.y) {
+			y += vspd;
+		}
+		
+		break;
+		case "amarillo":
+		
+		break;
+		case "negro":
+		
+		break;
+		case "verde":
+			spd = 1.5
+			image_angle = point_direction(x,y,target.x, target.y) - 90;
+			// Direcction al target
+			dir = point_direction(x,y,target.x, target.y);
+			len = spd
+
+			hspd = lengthdir_x(len, dir);
+			vspd = lengthdir_y(len, dir);
+		
+			if (x <= target.x) {
+				x += hspd;
+			}
+
+			if (x >= target.x) {
+				x += hspd;
+			}
+
+			if (y >= target.y) {
+				y += vspd;
+			}
+
+			if (y <= target.y) {
+				y += vspd;
+			}
+				
+		
+		break;
+	}
+		
+
+
