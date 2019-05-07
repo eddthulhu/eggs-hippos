@@ -5,13 +5,13 @@ if (myColor == "verde") {
 	switch(loot) {
 		case 0:
 			instance_create_depth(x,y,y, obj_worm);
-			show_debug_message("worm");
 		break;
 		case 1:
 			instance_create_depth(x,y,y,obj_ammo);
-			show_debug_message("ammo");
 		break;
 	}
 }
+obj_player.hiposMatados++;
+audio_play_sound(muertepotamo, 1, 0);
 instance_destroy()
 spawner.hipos -= 1;

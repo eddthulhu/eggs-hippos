@@ -1,5 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
+audio_play_sound(backgroundmusic, 1, 0);
 randomize()
 hipos = 0;
 for (i = 0; i < 10; i++) {

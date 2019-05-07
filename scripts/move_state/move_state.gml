@@ -33,7 +33,7 @@ y += vspd;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y) - 90
 
-if (place_meeting(x,y,obj_puddle)) {
+if (place_meeting(x,y,obj_puddle) or place_meeting(x,y,obj_puddle1) or place_meeting(x,y,obj_puddle2)) {
 	spd = 5;
 } else {
 	spd = spd;
