@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0e7088a7-10bd-490c-8fe3-5057ac43ebfc",
-            "Value": {
-                "id": "a2c971c8-b438-4f83-814d-748ec007b5ce",
-                "resourcePath": "objects\\obj_nido2\\obj_nido2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0ee6a81d-09b8-4ebf-982c-d0aa11a383b7",
             "Value": {
                 "id": "540c359d-07f9-49bf-bce4-6c1e381e6af0",
@@ -55,11 +47,11 @@
             }
         },
         {
-            "Key": "1b1a6582-a320-4574-8596-abb68a82f820",
+            "Key": "1a1cb13e-db7a-472c-8427-8586d2ca793a",
             "Value": {
-                "id": "7d5dbb23-4dc3-4cf9-be32-906aab7b666d",
-                "resourcePath": "datafiles_yy\\WhatsApp Audio 2019-05-06 at 22.09.15.mpeg.yy",
-                "resourceType": "GMIncludedFile"
+                "id": "c9d9000e-6d2e-4e29-b19b-61443cb3d1e1",
+                "resourcePath": "scripts\\end_state\\end_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -100,6 +92,22 @@
                 "id": "b4dfd6be-eed7-454c-85ad-657a46c9f2ef",
                 "resourcePath": "views\\31845df9-8024-473a-9769-75cbbbaf5b7f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3dcba9ee-6fcd-4eb3-8fb4-b54d0c80e297",
+            "Value": {
+                "id": "a81865fb-f393-439f-878b-f72719c13320",
+                "resourcePath": "objects\\obj_nido2\\obj_nido2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43b95e97-bbe0-4223-ad3b-e60b9b4347a3",
+            "Value": {
+                "id": "59489e57-cb46-4bfe-8aed-4cbfaf946219",
+                "resourcePath": "fonts\\font\\font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -183,10 +191,26 @@
             }
         },
         {
+            "Key": "664a4350-33eb-4663-ae58-aae98b52636e",
+            "Value": {
+                "id": "7a318eb2-c3ea-48a2-b04c-274e796d40de",
+                "resourcePath": "objects\\obj_nido3\\obj_nido3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "682d9a2f-6541-4e7f-a99c-39d06bab34fc",
             "Value": {
                 "id": "59f6d090-70fe-42e0-8b63-6c27aec3d985",
                 "resourcePath": "objects\\obj_puddle\\obj_puddle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68954ed6-0152-48d0-a461-342cd483a5ab",
+            "Value": {
+                "id": "4cc745ad-762f-4fd0-8b5d-6d7c0339309e",
+                "resourcePath": "objects\\obj_nido1\\obj_nido1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -212,14 +236,6 @@
                 "id": "d0b132eb-521d-4de6-b99a-b483be97902a",
                 "resourcePath": "sounds\\muertepotamo\\muertepotamo.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "78360e0f-afe6-43e5-9f0d-8ed9c4377854",
-            "Value": {
-                "id": "cf5212ba-3f32-4496-a01d-e0984792b439",
-                "resourcePath": "objects\\obj_nido1\\obj_nido1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -300,6 +316,14 @@
                 "id": "127573fa-a622-4482-87d6-04405e7dbfea",
                 "resourcePath": "objects\\obj_hipo\\obj_hipo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b37db4c-c0ba-446f-91e1-b4dd893e210f",
+            "Value": {
+                "id": "21302dfb-ccc4-4aaa-ad78-87ea07e43627",
+                "resourcePath": "rooms\\rm_secret\\rm_secret.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -447,14 +471,6 @@
             }
         },
         {
-            "Key": "e6dbce4f-1c0c-4d54-a132-d0f343a37fae",
-            "Value": {
-                "id": "dfa278e5-39fe-44ef-a1aa-72aa96f00089",
-                "resourcePath": "objects\\obj_nido3\\obj_nido3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c8dead13-4d3f-4947-b28b-fd0e2b133c40",
@@ -468,6 +484,14 @@
                 "id": "167fdc21-57c6-4750-8641-41e42d0c3eca",
                 "resourcePath": "views\\f490ad34-51c6-4d83-be90-61ae9bf16289.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f8ba8335-057d-4510-866e-a8a8e2a78f5c",
+            "Value": {
+                "id": "01e83f08-9a79-4ecf-bef1-ba00c066e322",
+                "resourcePath": "sprites\\test\\test.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -497,7 +521,8 @@
     ],
     "script_order": [
         "b62af4c4-2b7e-4d21-9cb5-21867251105a",
-        "0ee6a81d-09b8-4ebf-982c-d0aa11a383b7"
+        "0ee6a81d-09b8-4ebf-982c-d0aa11a383b7",
+        "1a1cb13e-db7a-472c-8427-8586d2ca793a"
     ],
     "tutorial": ""
 }

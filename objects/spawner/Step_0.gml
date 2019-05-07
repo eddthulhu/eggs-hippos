@@ -2,6 +2,8 @@
 // Puede escribir su código en este editor
 if (!audio_is_playing(backgroundmusic)) {
 	obj_player.sprite_index = spr_empty;
+	obj_player.state = end_state;
+	obj_player.can_draw = false;
 	huevosFinales = 0;
 	for (i = 0; i < 4; i++) {
 		huevosFinales += color_controller.nidoArray[i].huevos;	

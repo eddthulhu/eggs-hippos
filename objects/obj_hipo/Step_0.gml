@@ -80,9 +80,8 @@ switch(myColor){
 				y += vspd;
 			}
 			
-			if (place_meeting(x,y,target)) {
-				if (target.huevos != 0 and target.alarm[0] == -1) {
-					// SHAKE IT OFF
+			/*if (place_meeting(x,y,target)) {
+				if (target.huevos != 0) {
 					target.huevos--;
 					if (target.huevos != 4) {
 					target.image_index = target.image_index + 1;
@@ -90,7 +89,7 @@ switch(myColor){
 					target.invencible = true;
 					
 				}
-			}
+			}*/
 		
 		break;
 		case "verde":
