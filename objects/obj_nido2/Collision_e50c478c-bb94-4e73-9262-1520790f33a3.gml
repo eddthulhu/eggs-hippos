@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if (canhurt == 1) {
+if (canhurt == 1 && obj_hipo.myColor == "negro") {
 	canhurt = 0;
 	huevos--;
 	image_index = image_index + 1;

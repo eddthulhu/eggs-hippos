@@ -8,6 +8,6 @@ if (!audio_is_playing(backgroundmusic)) {
 	for (i = 0; i < 4; i++) {
 		huevosFinales += color_controller.nidoArray[i].huevos;	
 	}
-	obj_player.puntos = huevosFinales*(obj_player.spd + obj_player.ammo + obj_player.hiposMatados);
+	obj_player.puntos = huevosFinales*(obj_player.spd + obj_player.ammo + obj_player.hiposMatados) + 1000;
 room_goto(rm_end);
 }

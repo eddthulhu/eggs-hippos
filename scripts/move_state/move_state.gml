@@ -34,6 +34,7 @@ y += vspd;
 image_angle = point_direction(x,y,mouse_x,mouse_y) - 90
 
 if (place_meeting(x,y,obj_puddle) or place_meeting(x,y,obj_puddle1) or place_meeting(x,y,obj_puddle2)) {
+	if (spd > 5) { audio_play_sound(lostspeed,1,0); }
 	spd = 5;
 } else {
 	spd = spd;

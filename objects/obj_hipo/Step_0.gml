@@ -24,7 +24,7 @@ if(myColor != color_controller.currentColor) {
 //Update logica
 switch(myColor){
 	case "rojo":
-		spd = 4
+		spd = 3.25;
 		image_angle = point_direction(x,y,target.x, target.y) - 90;
 		// Direcction al target
 		dir = point_direction(x,y,target.x, target.y);
@@ -79,17 +79,6 @@ switch(myColor){
 			if (y < target.y) {
 				y += vspd;
 			}
-			
-			/*if (place_meeting(x,y,target)) {
-				if (target.huevos != 0) {
-					target.huevos--;
-					if (target.huevos != 4) {
-					target.image_index = target.image_index + 1;
-					}
-					target.invencible = true;
-					
-				}
-			}*/
 		
 		break;
 		case "verde":
@@ -120,7 +109,7 @@ switch(myColor){
 				
 		
 		break;
-	}
 		
 
 
+}
